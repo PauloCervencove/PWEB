@@ -1,0 +1,104 @@
+body {
+    background:  url(img/canto_alto.jpg);
+      background-repeat: no-repeat;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana,
+  sans-serif;
+  line-height: 1.0;
+  background-size: cover;
+      background-attachment: scroll;
+  }
+  .container {
+    margin: 0 auto;
+    width: 960px;
+    }
+    
+    article {
+    background-color:;
+    color : blue;
+    border: 1px ;
+    border-color: ;
+    margin-bottom: 20px;
+    padding: 20px; /* espaçamento entre a borda e o título */
+    }
+    
+    
+    article h2 {
+    
+      border-bottom: ;
+    margin: 5;
+    }
+    
+    article img {
+    
+      border: 5px solid #7E9F19;
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: 2px;
+    width: 160px;
+    height: 160px;
+    }
+    
+    article a { /* mudando a cor dos links para negrito */
+      
+      color: red;
+    font-weight: bold;
+    }
+    
+    article a:hover{
+      background-color: blue;
+      color: yellow;
+    }
+    header h1 a {
+    color: black;
+    text-decoration: none;
+    margin-left:250px;
+    }
+    
+    header h1 a:hover { /* mudando a cor do link quando posicionado */
+      
+      background-color: blue;
+    color: yellow;
+    }
+      header a {
+        color: blue;
+        
+      }
+      
+      
+    .clear { /* para a imagem nao "ficar fora" quando usa o float */
+    clear: both;
+    }
+    
+    footer {
+    font-size: 50px;
+    text-align: center;
+    }
+    
+    section { /* para a barra lateral lista e titulo */
+    float: left;
+    width: 660px;
+    text-align: center;
+    }
+    
+    aside {
+    background:url(img/fundo.jpg);
+    border: 1px solid #C9BC8F;
+    padding: 10px;
+    float: right;
+    width: 260px;
+    }
+    
+    aside h3 {
+    color: red;
+      font-size: 14px;
+    margin-top: 10;
+    }
+    
+    aside ol {
+    color: red;
+    font-weight: bold;
+      font-size: 12px;
+    }
+    
+    
+    
