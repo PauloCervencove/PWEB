@@ -1,0 +1,54 @@
+:root {
+    
+  margin: 0;  
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* variavel fica
+no elemento raiz */
+body{
+   background: url(img/fundo.jpg);    
+}
+body h1 {
+    margin-left: 36%;
+    color: white;
+}
+
+.container-box1 {
+    display: flex; /** display flexbox **/
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    
+    /* Define se os itens devem quebrar ou não a linha*/
+}
+.container-box2 {
+    display: flex; /** display flexbox **/
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    
+    /* Define se os itens devem quebrar ou não a linha*/
+}
+.container-box3 {
+    display: flex; /** display flexbox **/
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    
+    /* Define se os itens devem quebrar ou não a linha*/
+}
+
+
+.box {
+    background-color: lightblue;
+    border: 1px solid black;
+    
+    height: 130px;
+    width: 30%;
+}
